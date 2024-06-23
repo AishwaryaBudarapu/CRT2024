@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int i,j,r,space;
+    scanf("%d",&r);
+    for(i=1;i<=r;i++)
+    {
+        for(space=1;space<=(r-i);space++)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
